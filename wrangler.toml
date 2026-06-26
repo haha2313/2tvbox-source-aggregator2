@@ -5,9 +5,9 @@ compatibility_flags = ["nodejs_compat"]
 
 # 自定义域名（可选，推荐配置）
 # 取消注释并替换为你自己的域名和 Zone ID
-# routes = [
-#   { pattern = "tvbox.yourdomain.com/*", zone_id = "your-zone-id" }
-# ]
+ routes = [
+   { pattern = "catvod.mmpic.dpdns.org/*", zone_id = "a710596ea443018e49cf0efde0d8b4a3" }
+ ]
 
 [triggers]
 crons = ["20 */3 * * *"]  # 每小时触发，实际执行频率由 Admin 设置的聚合间隔控制
